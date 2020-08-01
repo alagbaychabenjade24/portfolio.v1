@@ -1,3 +1,248 @@
+@media screen and (max-width: 375px) {
+    .nav-logo a {
+        font-size: 20px;
+    }
+    
+    .nav-links {
+        position: absolute;
+        right: 0px;
+        height: 43vh;
+        top: 10vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        background: rgb(220, 223, 255);
+        transform: translateY(-130%);
+        transition: 0.5s ease-in;
+    }
+    
+    .nav-links a {
+        font-size: 16px;
+    }
+    
+    .menu {
+        display: block;
+        cursor: pointer;
+    }
+
+    .bar-1, .bar-3 {
+        background: #6b65e7;
+        height: 3px;
+        width: 27px;
+        margin: 4px 0;
+        transition: 0.6s;
+    }
+
+    .bar-2 {
+        background: #6b65e7;
+        height: 3px;
+        width: 20px;
+        margin: 4px 0 0 auto;
+        transition: 0.6s;
+    }
+
+    .nav-active {
+        transform: translateY(0%);
+    }
+
+    .toggle .bar-1 {
+        transform: rotate(-45deg) translate(-4px, 6px);
+    }
+
+    .toggle .bar-2 {
+        opacity: 0;
+    }
+
+    .toggle .bar-3 {
+        transform: rotate(45deg) translate(-4px, -6px);
+    }
+
+    /* -- Homepage Section -- */
+    .homepage-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 80%;
+        height: 80vh;
+        margin: auto;
+    }
+
+    .small-img img {
+        display: block;
+        width: 155px;
+        margin: 0  0 20px;
+    }
+
+    .greetings {
+        font-size: 13px;
+    }
+
+    .name {
+        font-size: 30px;
+    }
+
+    .wid {
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+
+    .sub {
+        display: none;
+    }
+
+    .resume {
+        font-size: 16px;
+        border: 2px solid #6b65e7;
+        padding: 6px 15px;
+    }
+
+    /* -- ABOUT-ME -- */
+    #about-me h1 {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .about-boxes div {
+        padding: 20px;
+    }
+
+    .about-boxes h2 {
+        font-size: 20px;
+    }
+    
+    .about-boxes img {
+        width: 90px;
+        height: 90px;
+        margin: 20px 0;
+    }
+    
+    .about-boxes p {
+        font-size: 12px;
+        letter-spacing: 0.5px;
+        line-height: 1.7;
+        width: 100%;
+        margin: auto;
+    }
+    
+    .ps {
+        margin: 30px 0;
+    }
+    
+    /* -- PROJECTS -- */
+    #projects h1 {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+
+    .website {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+
+    .webs-sub {
+        margin-bottom: 30px;
+    }
+
+    .webs-sub h3 {
+        font-size: 18px;
+    }
+
+    .webs-sub p {
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+
+    .live {
+        font-size: 13px;
+        padding: 5px 16px;
+    }
+
+    .code {
+        font-size: 13px;
+    }
+
+    .webs-img img {
+        border-radius: 10px;
+        width: 100%;
+        margin: auto;
+    }
+
+    .restaurant-app {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .restau-sub {
+        margin-bottom: 30px;
+    }
+
+    .restau-sub h3 {
+        font-size: 18px;
+    }
+
+    .restau-sub p {
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+
+    .restau-img img {
+        width: 100%;
+        margin: auto;
+    }
+
+    /* -- CONTACT -- */
+    #contact {
+        padding: 50px 0 70px;
+    }
+
+    .contact-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .contact-content h1 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .contact-content p {
+        font-size: 13px;
+        width: 75%;
+        margin: 0 auto 30px;
+    }
+
+    .contact-content a {
+        font-size: 15px;
+        padding: 7px 23px;
+    }
+
+    /* -- FOOTER -- */
+    footer {
+        padding: 20px 0;
+    }
+
+    .social-links img {
+        width: 30px;
+        margin: 0 7px;
+    }
+
+    hr {
+        width: 80%;
+    }
+
+    .copyright {
+        font-size: 13px;
+    }
+}
+
 @media screen and (max-width: 320px) {
     .nav-logo a {
         font-size: 20px;
@@ -110,18 +355,18 @@
     }
 
     .about-boxes h2 {
-        font-size: 21px;
+        font-size: 20px;
     }
     
     .about-boxes img {
-        width: 110px;
-        height: 110px;
+        width: 90px;
+        height: 90px;
         margin: 20px 0;
     }
     
     .about-boxes p {
-        font-size: 13px;
-        letter-spacing: 0.7px;
+        font-size: 12px;
+        letter-spacing: 0.5px;
         line-height: 1.7;
         width: 100%;
         margin: auto;
@@ -153,7 +398,7 @@
     }
 
     .webs-sub p {
-        font-size: 13px;
+        font-size: 12px;
         margin-bottom: 20px;
     }
 
@@ -186,7 +431,7 @@
     }
 
     .restau-sub p {
-        font-size: 13px;
+        font-size: 12px;
         margin-bottom: 20px;
     }
 
@@ -214,8 +459,8 @@
     }
 
     .contact-content p {
-        font-size: 14px;
-        width: 80%;
+        font-size: 13px;
+        width: 75%;
         margin: 0 auto 30px;
     }
 
