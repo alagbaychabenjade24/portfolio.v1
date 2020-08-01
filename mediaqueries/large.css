@@ -56,9 +56,22 @@
     .webs-sub h3 {
         font-size: 22px;
     }
+
+    .webs-sub p {
+        width: 90%;
+    }
     
     .restau-sub h3 {
         font-size: 22px;
+    }
+
+    .restau-sub p {
+        width: 90%;
+    }
+
+    .restau-img img,
+    .webs-img img {
+        width: 100%;
     }
 
     /* -- CONTACT -- */
