@@ -9,25 +9,31 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div class="nav-logo">
-            <a href="#">Chaben Alagbay</a>
-        </div>
-
+    <header id="homepage">
         <nav>
+            <div class="nav-logo">
+                <a href="#homepage">Chaben Alagbay</a>
+            </div>
+
             <ul class="nav-links">
-                <li><a href="#">About</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#about-me">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
+
+            <div class="menu">
+                <div class="bar one"></div>
+                <div class="bar two"></div>
+                <div class="bar three"></div>
+            </div>
         </nav>
 
-        <section class="">
+        <section class="homepage-content">
             <div class="small-img">
                 <img src="img/selfAvatar.svg" alt="Avatar">
             </div>
 
-            <div class="homepage-content">
+            <div class="homepage-intro">
                 <p class="greetings">Hi, my name is</p>
                 <h1 class="name">Chaben Alagbay</h1>
                 <h2 class="wid">I build things for the web.</h2>
@@ -39,5 +45,63 @@
             </div>
         </section>
     </header>
+
+    <main>
+        <section id="about-me">
+            <h1>ABOUT ME</h1>
+
+            <div class="about-boxes">
+                <div class="et">
+                    <h2>Empathetic</h2>
+                    <img src="icn/team.svg" alt="Empathetic">
+                    <p>
+                        Having a consistent code style is empathetic because it allows my 
+                        teammates to understand the code faster. Not forcing them to spend 
+                        extra brain cycles reading through inconsistently formatted code allows 
+                        us to focus on what actually matters: the problem we're trying to solve.
+                    </p>
+                </div>
+
+                <div class="ps">
+                    <h2>Problem Solver</h2>
+                    <img src="icn/alert.svg" alt="Problem Solver">
+                    <p>
+                        I believe that every problem has a definite solution if one takes the 
+                        time to understand the problem. I apply this philosophy in my everyday 
+                        life especially in the code I write.
+                    </p>
+                </div>
+
+                <div class="ec">
+                    <h2>Effective Communicator</h2>
+                    <img src="icn/protest.svg" alt="Effective Communicator">
+                    <p>
+                        Effective communication is a great way to perform duties and responsibilities 
+                        effectively and efficiently. It enables us to communicate better while it 
+                        helps us stand out in today’s job. It not only enables us to improve our experience, 
+                        but also leads us to get professional development.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h1>PROJECTS</h1>
+
+            <div class="proj-container">
+                <div class="website">
+                    <div class="webs-sub">
+                        <p>
+                            My Portfolio website where you can get to now more about 
+                            who I am and what I've made in my walk to becoming a web developer.
+                        </p>
+
+                        <a href="" class="live">See Live</a>
+                        <a href="" class="code">Source Code</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 </html>

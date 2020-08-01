@@ -4,9 +4,148 @@
     margin: 0;
 }
 
-/* font-family: 'Kaushan Script', cursive;
-font-family: 'Poppins', sans-serif; */
-
-header {
+#homepage {
     background: url(img/homepageImage.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 10vh;
+    width: 80%;
+    margin: auto;
+}
+
+.nav-logo a {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 28px;
+    color: #6b65e7;
+    text-decoration: none;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: #6b65e7;
+    text-decoration: none;
+}
+
+.menu {
+    display: none;
+}
+
+/* -- Homepage Section -- */
+.homepage-content {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 80vh;
+    margin: auto;
+}
+
+.small-img img {
+    display: none;
+}
+
+.greetings {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: rgb(117, 133, 187);
+}
+
+.name {
+    font-family: Montserrat, sans-serif;
+    font-size: 70px;
+    color: #6b65e7;
+}
+
+.wid {
+    font-family: Montserrat, sans-serif;
+    font-size: 70px;
+    color: rgb(117, 133, 187);
+}
+
+.sub {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.7px;
+    line-height: 1.7;
+    color: rgb(117, 133, 187);
+    width: 80%;
+    margin: 20px 0 80px;
+}
+
+.resume {
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    color: #6b65e7;
+    text-decoration: none;
+    border: 2px solid #6b65e7;
+    padding: 13px 28px;
+}
+
+/* -- ABOUT-ME-SECTION -- */
+#about-me {
+    text-align: center;
+    background: linear-gradient(90deg, rgba(70,115,221,1) 9%, rgba(127,92,219,1) 84%);
+    padding: 50px 0;
+}
+
+#about-me h1 {
+    font-family: Montserrat, sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.about-boxes {
+    width: 80%;
+    margin: auto;
+}
+
+.about-boxes div {
+    background: white;
+    border-radius: 10px;
+    padding: 50px 20px;
+}
+
+.about-boxes h2 {
+    font-family: 'Poppins', sans-serif;
+    color: #1c2326;
+}
+
+.about-boxes img {
+    width: 130px;
+    height: 130px;
+    margin: 20px 0;
+}
+
+.about-boxes p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.7px;
+    line-height: 1.7;
+    width: 70%;
+    margin: auto;
+}
+
+.ps {
+    margin: 30px 0;
 }
