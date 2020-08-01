@@ -15,7 +15,7 @@
         width: 100%;
         background: rgb(220, 223, 255);
         transform: translateY(-130%);
-        transition: 0.4s ease-in;
+        transition: 0.5s ease-in;
     }
     
     .nav-links a {
