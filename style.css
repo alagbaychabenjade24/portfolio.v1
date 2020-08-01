@@ -149,3 +149,153 @@ nav {
 .ps {
     margin: 30px 0;
 }
+
+/* -- PROJECTS -- */
+#projects {
+    padding: 50px 0;
+}
+
+#projects h1 {
+    font-family: Montserrat, sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #6b65e7;
+    margin-bottom: 50px;
+}
+
+.proj-container {
+    width: 80%;
+    margin: auto;
+}
+
+.website {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.webs-sub h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+.webs-sub p {
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.7px;
+    margin-bottom: 30px;
+}
+
+.live {
+    font-family: 'Poppins', sans-serif;
+    color: #6b65e7;
+    text-decoration: none;
+    border: 1px solid #6b65e7;
+    padding: 8px 17px;
+    margin-right: 15px;
+}
+
+.code {
+    font-family: 'Poppins', sans-serif;
+    color: #6b65e7;
+    text-decoration: none;
+}
+
+.webs-img img {
+    border-radius: 10px;
+    width: 500px;
+    margin-left: 30px;
+}
+
+.restaurant-app {
+    display: flex;
+    align-items: center;
+}
+
+.restau-sub h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+.restau-sub p {
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.7px;
+    margin-bottom: 30px;
+}
+
+.restau-img img {
+    border-radius: 10px;
+    width: 500px;
+    margin-left: 30px;
+}
+
+/* -- CONTACT -- */
+#contact {
+    background: url(img/contactBackground.svg) center bottom/cover no-repeat;
+    padding: 80px 0 100px;
+}
+
+.contact-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.contact-content h1 {
+    font-family: Montserrat, sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.contact-content p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.7px;
+    line-height: 1.7;
+    color: white;
+    width: 70%;
+    margin: 0 auto 40px;
+}
+
+.contact-content a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    border: 2px solid;
+    padding: 12px 28px;
+}
+
+/* -- FOOTER -- */
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    width: 80%;
+    padding: 70px 0;
+    margin: 0 auto;
+}
+
+.social-links img {
+    width: 45px;
+    margin: 0 15px;
+}
+
+hr {
+    border: 1px solid #6b65e7;
+    width: 60%;
+    margin: 10px auto 20px;
+}
+
+.copyright {
+    color: #6b65e7;
+    user-select: none;
+}
