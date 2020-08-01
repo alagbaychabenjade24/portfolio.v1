@@ -1,0 +1,315 @@
+@media screen and (max-width: 1366px) {
+    .nav-logo a {
+        font-size: 28px;
+    }
+    
+    .nav-links {
+        width: 32%;
+    }
+    
+    /* -- Homepage Section -- */
+    .homepage-content {
+        height: 80vh;
+    }
+    
+    .greetings {
+        font-size: 15px;
+    }
+    
+    .sub {
+        font-size: 19px;
+        width: 70%;
+        margin: 20px 0 60px;
+    }
+    
+    .resume {
+        font-size: 19px;
+        padding: 9px 23px;
+    }
+    
+    /* -- ABOUT-ME-SECTION -- */
+    .about-boxes {
+        display: flex;
+        width: 80%;
+        margin: auto;
+    }
+    
+    .about-boxes div {
+        width: 100%;
+        padding: 40px 20px;
+    }
+    
+    .about-boxes h2 {
+        height: 75px;
+    }
+    
+    .about-boxes p {
+        font-size: 16px;
+        width: 90%;
+    }
+    
+    .ps {
+        margin: 0 20px;
+    }
+    
+    /* -- PROJECTS -- */
+    .webs-sub h3 {
+        font-size: 22px;
+    }
+    
+    .restau-sub h3 {
+        font-size: 22px;
+    }
+
+    /* -- CONTACT -- */
+    .contact-content p {
+        font-size: 19px;
+        width: 65%;
+    }
+    
+    .contact-content a {
+        font-size: 19px;
+        padding: 10px 28px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .nav-logo a {
+        font-size: 28px;
+    }
+    
+    .nav-links {
+        width: 32%;
+    }
+    
+    /* -- Homepage Section -- */
+    .homepage-content {
+        height: 80vh;
+    }
+    
+    .greetings {
+        font-size: 15px;
+    }
+    
+    .sub {
+        font-size: 19px;
+        width: 70%;
+        margin: 20px 0 60px;
+    }
+    
+    .resume {
+        font-size: 19px;
+        padding: 9px 23px;
+    }
+    
+    /* -- ABOUT-ME-SECTION -- */
+    .about-boxes {
+        display: flex;
+        width: 80%;
+        margin: auto;
+    }
+    
+    .about-boxes div {
+        width: 100%;
+        padding: 40px 20px;
+    }
+    
+    .about-boxes h2 {
+        height: 75px;
+    }
+    
+    .about-boxes p {
+        font-size: 16px;
+        width: 90%;
+    }
+    
+    .ps {
+        margin: 0 20px;
+    }
+    
+    /* -- PROJECTS -- */
+    .webs-sub h3 {
+        font-size: 22px;
+    }
+    
+    .restau-sub h3 {
+        font-size: 22px;
+    }
+
+    /* -- CONTACT -- */
+    .contact-content p {
+        font-size: 19px;
+        width: 65%;
+    }
+    
+    .contact-content a {
+        font-size: 19px;
+        padding: 10px 28px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #homepage {
+        height: 80vh;
+    }
+
+    .nav-logo a {
+        font-size: 35px;
+    }
+    
+    .nav-links {
+        width: 40%;
+    }
+    
+    .nav-links a {
+        font-size: 23px;
+    }
+    
+    /* -- Homepage Section -- */
+    .homepage-content {
+        height: 60vh;
+    }
+
+    .greetings {
+        font-size: 21px;
+    }
+
+    .name {
+        font-size: 80px;
+    }
+
+    .sub {
+        font-size: 23px;
+    }
+    
+    .resume {
+        font-size: 23px;
+        font-weight: 800;
+    }
+
+    /* -- ABOUT-ME-SECTION -- */
+    .about-boxes {
+        width: 80%;
+        margin: auto;
+    }
+    
+    .about-boxes div {
+        background: white;
+        border-radius: 10px;
+        padding: 50px 20px;
+    }
+    
+    .about-boxes h2 {
+        font-size: 30px;
+    }
+    
+    .about-boxes p {
+        font-size: 20px;
+        width: 80%;
+    }
+    
+    .ps {
+        margin: 30px 0;
+    }
+    
+    /* -- PROJECTS -- */
+    #projects {
+        padding: 50px 0;
+    }
+    
+    #projects h1 {
+        font-family: Montserrat, sans-serif;
+        font-size: 50px;
+        font-weight: 800;
+        letter-spacing: 2px;
+        text-align: center;
+        color: #6b65e7;
+        margin-bottom: 50px;
+    }
+    
+    .proj-container {
+        width: 80%;
+        margin: auto;
+    }
+    
+    .website {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+
+    .webs-sub {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    
+    .webs-sub h3 {
+        font-size: 28px;
+    }
+    
+    .webs-sub p {
+        font-size: 21px;
+        width: 80%;
+        margin-bottom: 30px;
+    }
+    
+    .live {
+        font-size: 22px;
+        padding: 8px 26px;
+        margin-right: 15px;
+    }
+    
+    .code {
+        font-size: 22px;
+    }
+    
+    .webs-img img {
+        width: 100%;
+        margin-left: auto;
+    }
+    
+    .restaurant-app {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .restau-sub {
+        margin-bottom: 40px;
+    }
+    
+    .restau-sub h3 {
+        font-size: 28px;
+    }
+    
+    .restau-sub p {
+        font-size: 21px;
+        width: 80%;
+        margin-bottom: 30px;
+    }
+
+    .restau-img {
+        width: 100%;
+    }
+    
+    .restau-img img {
+        width: 100%;
+        margin-left: auto;
+    }
+    
+    /* -- CONTACT -- */
+    .contact-content p {
+        font-size: 22px;
+    }
+    
+    .contact-content a {
+        font-size: 22px;
+        padding: 12px 30px;
+    }
+    
+    /* -- FOOTER -- */
+    .copyright {
+        font-size: 17px;
+    }
+}

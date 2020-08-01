@@ -66,7 +66,7 @@
         justify-content: center;
         text-align: center;
         width: 80%;
-        height: 80vh;
+        height: 60vh;
         margin: auto;
     }
 
@@ -103,6 +103,11 @@
     #about-me h1 {
         font-size: 40px;
         margin-bottom: 30px;
+    }
+
+    .about-boxes {
+        display: flex;
+        flex-direction: column;
     }
     
     .about-boxes div {
@@ -311,6 +316,10 @@
     }
 
     /* -- Homepage Section -- */
+    #homepage {
+        height: 100vh;
+    }
+
     .homepage-content {
         display: flex;
         flex-direction: column;
@@ -323,7 +332,7 @@
 
     .small-img img {
         display: block;
-        width: 180px;
+        width: 160px;
         margin: 0  0 20px;
     }
 
@@ -556,13 +565,17 @@
     }
 
     /* -- Homepage Section -- */
+    #homepage {
+        height: 100vh;
+    }
+
     .homepage-content {
         display: flex;
         flex-direction: column;
         justify-content: center;
         text-align: center;
         width: 80%;
-        height: 80vh;
+        height: 75vh;
         margin: auto;
     }
 
@@ -581,7 +594,7 @@
     }
 
     .wid {
-        font-size: 24px;
+        font-size: 23px;
         margin-bottom: 30px;
     }
 
@@ -801,6 +814,10 @@
     }
 
     /* -- Homepage Section -- */
+    #homepage {
+        height: 100vh;
+    }
+
     .homepage-content {
         display: flex;
         flex-direction: column;
@@ -813,7 +830,7 @@
 
     .small-img img {
         display: block;
-        width: 150px;
+        width: 130px;
         margin: 0  0 20px;
     }
 
