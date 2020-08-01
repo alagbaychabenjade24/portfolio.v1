@@ -8,9 +8,12 @@ const navSlide = () => {
         menu.classList.toggle('toggle');
     });
 
+
+
     navLinks.forEach(link => {
         link.addEventListener('click', () => {
-            nav.classList.toggle('nav-active');
+            nav.classList.remove('nav-active');
+            menu.classList.remove('toggle');
         });
     });
 };
