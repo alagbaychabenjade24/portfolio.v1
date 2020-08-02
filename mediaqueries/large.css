@@ -783,6 +783,8 @@
 
     /* -- ABOUT-ME-SECTION -- */
     .about-boxes {
+        display: flex;
+        flex-direction: column;
         width: 80%;
         margin: auto;
     }
@@ -796,9 +798,14 @@
     .about-boxes h2 {
         font-size: 30px;
     }
+
+    .about-boxes img {
+        width: 130px;
+        height: 130px;
+    }
     
     .about-boxes p {
-        font-size: 20px;
+        font-size: 21px;
         width: 80%;
     }
     
