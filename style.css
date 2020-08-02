@@ -70,6 +70,7 @@ nav {
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
     color: rgb(117, 133, 187);
+    user-select: none;
 }
 
 .name {
@@ -101,6 +102,12 @@ nav {
     text-decoration: none;
     border: 2px solid #6b65e7;
     padding: 13px 28px;
+}
+
+.resume:hover {
+    background: linear-gradient(90deg, rgba(70,115,221,1) 9%, rgba(127,92,219,1) 84%);
+    color: white;
+    transition: 0.6s ease-in-out;
 }
 
 /* -- ABOUT-ME-SECTION -- */
@@ -196,8 +203,14 @@ nav {
     color: #6b65e7;
     text-decoration: none;
     border: 1px solid #6b65e7;
-    padding: 8px 17px;
+    padding: 8px 23px;
     margin-right: 15px;
+}
+
+.live:hover {
+    background: linear-gradient(90deg, rgba(70,115,221,1) 9%, rgba(127,92,219,1) 84%);
+    color: white;
+    transition: 0.6s ease-in-out;
 }
 
 .code {
@@ -254,7 +267,6 @@ nav {
     font-weight: 800;
     letter-spacing: 2px;
     color: white;
-    margin-bottom: 20px;
 }
 
 .contact-content p {
